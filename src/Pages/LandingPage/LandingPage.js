@@ -31,7 +31,7 @@ const LandingPage = () => {
       <h1>Consent Management for Fertility Clinics and Patients</h1>
       <div className="headline">
           <h3></h3>
-          <h3>Obtaining and Managing Informed Consent has never been this Safe and Easy!</h3>
+          <h3>Obtaining and Managing Informed Consent has never been this Safe and Easy!!</h3>
           <h3></h3>
           <div className="button-2">Sign Up</div>
       </div>
