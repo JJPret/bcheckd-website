@@ -75,8 +75,8 @@ const LoginPage = () => {
         header="Failed Login Attempt"
         bodyText="Username/Password does not exist. Please try again or Sign Up."
         textColor="black"
-        buttonText="Sign Up"
-        buttonPath="/signup"
+        buttonText="Home"
+        buttonPath="/"
         onClose={closeModal}
         headerBackgroundColor="red"
       />

@@ -129,8 +129,8 @@ const SignUpPage = () => {
         header={modalMessage === 'Your account has been successfully created! An agent will contact you shortly via email.' ? 'Account Created' : 'Error'}
         bodyText={modalMessage}
         textColor={modalMessage === 'Your account has been successfully created! An agent will contact you shortly via email.' ? 'black' : 'black'}
-        buttonText={modalMessage === 'Your account has been successfully created! An agent will contact you shortly via email.' ? 'Login' : 'Close'}
-        buttonPath={modalMessage === 'Your account has been successfully created! An agent will contact you shortly via email.' ? '/login' : '/signup'}
+        buttonText={modalMessage === 'Your account has been successfully created! An agent will contact you shortly via email.' ? 'Home' : 'Home'}
+        buttonPath={modalMessage === 'Your account has been successfully created! An agent will contact you shortly via email.' ? '/' : '/'}
         onClose={closeModal}
         headerBackgroundColor={modalMessage ===  'Your account has been successfully created! An agent will contact you shortly via email.' ? 'green' : 'red'}
       />

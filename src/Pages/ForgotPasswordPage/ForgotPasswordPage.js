@@ -45,8 +45,8 @@ const ForgotPasswordPage = () => {
         header="Email not Found"
         bodyText="Your email address was not found. Please try again or Sign Up"
         textColor="black"
-        buttonText="Sign Up"
-        buttonPath="/signup"
+        buttonText="Home"
+        buttonPath="/"
         onClose={closeModal}
         headerBackgroundColor="red"
       />
