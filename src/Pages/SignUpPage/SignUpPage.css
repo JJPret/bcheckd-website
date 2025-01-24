@@ -1,0 +1,85 @@
+.signup-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-color: black;
+  padding: 32px;
+  color: white;
+}
+
+.signup-header {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start; /* Align header elements to the left */
+  width: 100%;
+  max-width: 400px;
+  margin-bottom: 20px;
+}
+
+.signup-header h1 {
+  font-size: 24px;
+  margin-left: auto; /* Center align header text */
+  margin-right: auto; /* Center align header text */
+}
+
+.signup-form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  width: 100%;
+  max-width: 400px;
+}
+
+.signup-form input {
+  width: 100%;
+  padding: 12px;
+  font-size: 16px;
+  border: 2px solid black;
+  border-radius: 5px;
+  box-sizing: border-box; /* Ensure consistent sizing */
+}
+
+.signup-form input:focus {
+  border-color:white;
+  outline: none;
+}
+
+.signup-button {
+  width: 100%;
+  padding: 12px;
+  font-size: 16px;
+  font-weight: bold;
+  background-color: #C55A11;
+  color: white;
+  border: 2px solid black;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, border-color 0.3s ease;
+}
+
+.signup-button:hover {
+  background-color: #7F3A0B;
+  border-color: white;
+}
+
+.spinner {
+  border: 4px solid #ccc; /* Light gray */
+  border-top: 4px solid #C55A11; /* Accent color */
+  border-radius: 50%;
+  width: 16px;
+  height: 16px;
+  animation: spin 1s linear infinite;
+  margin: 0 auto; /* Center the spinner inside the button */
+}
+
+/* Animation for spinner */
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
