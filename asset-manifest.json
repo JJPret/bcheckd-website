@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.4e28113f.css",
-    "main.js": "/static/js/main.08efabaf.js",
+    "main.css": "/static/css/main.88a32533.css",
+    "main.js": "/static/js/main.98a9c0f0.js",
     "static/js/488.f16c8b15.chunk.js": "/static/js/488.f16c8b15.chunk.js",
     "static/media/HEADER 1.png": "/static/media/HEADER 1.2c4821638371b3dd86bb.png",
     "static/media/bcheckd-logo.png": "/static/media/bcheckd-logo.8106c7c239bd03a34de4.png",
@@ -11,14 +11,13 @@
     "static/media/Andrew-Martin-300x300.jpg": "/static/media/Andrew-Martin-300x300.d1229a0e28ed6b22f17b.jpg",
     "static/media/pretoria-fertility.png": "/static/media/pretoria-fertility.8aa021e5a91eaa9d08e0.png",
     "static/media/femicare.webp": "/static/media/femicare.67508113b3d2c5002520.webp",
-    "static/media/logo.svg": "/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/index.html",
-    "main.4e28113f.css.map": "/static/css/main.4e28113f.css.map",
-    "main.08efabaf.js.map": "/static/js/main.08efabaf.js.map",
+    "main.88a32533.css.map": "/static/css/main.88a32533.css.map",
+    "main.98a9c0f0.js.map": "/static/js/main.98a9c0f0.js.map",
     "488.f16c8b15.chunk.js.map": "/static/js/488.f16c8b15.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4e28113f.css",
-    "static/js/main.08efabaf.js"
+    "static/css/main.88a32533.css",
+    "static/js/main.98a9c0f0.js"
   ]
 }
